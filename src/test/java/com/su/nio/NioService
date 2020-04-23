@@ -1,0 +1,26 @@
+package com.su.nio;
+
+/**
+ * NIO服务端
+ */
+public class NioService{
+
+    /**
+     * 启动服务
+     */
+    public void strat(){
+        //1.创建selector
+        Selector selector = Selector.open();
+        //2.通过ServiceSocketChannel创建Channel通道
+        //3.为channel绑定监听端口
+        //4.设置channel为非阻塞模式
+        //5.将channel注册到selector上 监听连接事件
+        //6.循环等待新接入的连接
+        //7.根据就绪状态处理对应业务逻辑
+
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
