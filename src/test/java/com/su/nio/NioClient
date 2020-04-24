@@ -1,5 +1,0 @@
-package com.su.nio;
-
-public class NioClient{
-
-}
